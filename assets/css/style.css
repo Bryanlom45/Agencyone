@@ -16,6 +16,28 @@ h6 {
   font-family: "krub", sans-serif;
 }
 
+#header {
+  background: #f6f7ff;
+  border-bottom: 2px solid #e9ebf8;
+  z-index: 997;
+  padding: 12px 0;
+  transition: all 0.5s;
+}
+
+#header .logo{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
+}
+
+#header .logo a {
+  color: #2d405f;
+}
+
 /*--navbar--*/
 
 .navbar {
