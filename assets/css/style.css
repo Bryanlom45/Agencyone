@@ -1,0 +1,64 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "krub", sans-serif;
+}
+
+
+/*--hero---*/
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: #f0f0f0;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+#hero .container {
+  padding-top: 72px;
+}
+
+#hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 56px;
+  width: 60%;
+  color: #2d405f;
+}
+
+#hero h2 {
+  font-size: 24px;
+  color: #2d405f;
+  margin: 15px 0 0 0;
+}
+
+#hero .btn-get-started {
+  font-family: "krub", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background: #3b4ef8;
+  padding: 8px 32px 10px 32px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: block;
+}
+
+#hero .btn-get-started:hover {
+  background: #0a22f6;
+}
